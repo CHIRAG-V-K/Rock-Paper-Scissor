@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Rock-Paper-Scissor</title>
+  </head>
+  <body>
+    <div class="container-3" id="container-3">
+      <h2>ROCK - PAPER - SCISSOR</h2>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+
+         <img
+          src="https://images.pexels.com/photos/2363901/pexels-photo-2363901.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          id="rock"
+          width="150"
+          height="150"
+          onclick="rpsGame(this)"
+         />
+         <img
+          src="https://images.pexels.com/photos/479444/pexels-photo-479444.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          id="paper"
+          width="150"
+          height="150"
+          onclick="rpsGame(this)"
+         />
+         <img
+          src="https://images.pexels.com/photos/4226896/pexels-photo-4226896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          id="scissor"
+          width="150"
+          height="150"
+          onclick="rpsGame(this)"
+         />
+      </div>
+      <div id="button">
+         <!-- <button class="btn btn-primary" onclick="playAgainButton()">Play Again</button> -->
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

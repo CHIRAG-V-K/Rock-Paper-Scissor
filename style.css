@@ -1,0 +1,25 @@
+.container-3 {
+  border: 1px solid black;
+  background: palevioletred;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin: 0 auto;
+}
+
+.flex-box-rps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-box-rps img {
+  box-shadow: 0px 20px 75px black;
+  margin: 10px;
+}
+
+.flex-box-rps img:hover {
+  transform: scale(0.9);
+}
+
+h5{
+   text-shadow: 1px 1px black;
+}
