@@ -1,0 +1,3 @@
+# Rock-Paper-Scissor
+This game helps you to play rock-paper-scissor with the computer/bot...
+Enjoy :)
