@@ -6,11 +6,11 @@ function rpsGame(yourchoice){
    var message = finalMessage(result); //youwon or you lost!
    rpsFrontEnd(humanchoice,message,botchoice);
 
-   var playAgain =document.createElement('button');
-   playAgain.setAttribute('class','btn btn-primary');
-   playAgain.setAttribute('onclick','pAButton()');
-   playAgain.innerHTML="Play Again";
-   document.getElementById('button').appendChild(playAgain);
+   var playAgainButton =document.createElement('button');
+   playAgainButton.setAttribute('class','btn btn-primary');
+   playAgainButton.setAttribute('onclick','pAButton()');
+   playAgainButton.innerHTML="Play Again";
+   document.getElementById('button-div').appendChild(playAgainButton);
 
 
 
